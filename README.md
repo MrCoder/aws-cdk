@@ -72,8 +72,17 @@ Initialize a project:
 $ mkdir hello-cdk
 $ cd hello-cdk
 $ cdk init app --language=typescript (or --language=java, ...)
+$ npm run build (if typescript is used)
 $ cdk deploy
 ```
+
+List the deployed stack:
+
+```bash
+$ cdk ls
+```
+
+You should also be able to check the deployed stacks at aws console: CloudFormation->Stacks.
 
 Use the `cdk` command-line toolkit to interact with your project:
 
